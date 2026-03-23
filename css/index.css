@@ -2,4 +2,94 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Navbar, links */
+span{
+    color: #FFFFFF;
+}
+.flex{
+    display: flex;
+    list-style: none;
+    gap: 3px;
+    justify-content: center;
+}
+.nav-menu{
+    background: #8f83d3;
+    width: 100%;
+    height: 65px;
+}
+.link-nav a{
+    padding: 15px;
+    text-decoration: none;
+    border: 1px solid #333;
+    color: #FFFFFF;
+    background: #725fe1;
+    transition: .5s;
+}
+ul li{
+    margin-top: 23px;
+}
+.text-name-nav{
+    float: left;
+    font-size: 2em;
+    margin: 15px;
+}
+
+.link-nav a:hover{
+    padding: 19px;
+    background: #553eda;    
+    font-size: 1rem;
+}
+/* Fim navbar, links */
+
+/* Conteudo Sobre mim */
+.container{
+    width: 70%;
+    margin: 25px auto 0 auto;
+    display: flex;
+    gap: 20px;
+}
+.content-left{
+    border: 1px solid #333;
+    width: 300px;
+    padding: 10px;
+    position: relative;
+}
+hr{
+    margin: 10px auto;
+}
+img{
+    width: 300px;
+    height: auto;
+
+    border: 2px solid #333;
+    border-radius: 20px;
+    position: relative;
+}
+.conteudo-pessoa{
+}
+.text-description{
+
+}
+@media screen and (max-width: 770px){
+    .text-name-nav{
+        float: none;
+        text-align: center;
+        margin: 0;
+    }
+    .nav-menu{
+        height: 100px;
+    }
+    .container{
+        flex-direction: row;
+    }
+    .text-description{
+
+    }
+}
+
+@media screen and (max-width: 600px){
+
+
 }
