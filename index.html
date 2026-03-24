@@ -19,6 +19,7 @@
         </ul>
     </nav>
     <div class="container">
+        <h1 id="sobremim">Sobre mim</h1>
         <section class="content-flex-about-me">
             <aside class="content-left">
                 <img src="img/eu.jpg" alt="Uma foto do autor do portifolio">
@@ -29,14 +30,98 @@
             </aside>
             <main class="conteudo-pessoa">
                 <p>
-                Me chamo Daniel, tenho 25 anos e gosto de jogar nas horas vagas. 
+                    Me chamo <strong>Daniel</strong>, tenho 25 anos e gosto de jogar nas horas vagas, Valorant, League Of Legends, competitivos em geral. Minha comida favorita é sem duvidas o <strong><i>Macarrão</i>&#128513;. </strong>
+                </p>
+                <p>
+                    Sou estudante de Engenharia de Software, tenho interesse em Front-End, mas também gosto do Back-End, quero ser um profissional com principal stack o React e React Native, futuramente, pretendo trabalhar fora e receber em dollar, euro, o que vier!!
                 </p>
             </main>
         </section>
-        <hr>
-        <section id="formacao">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro facere magnam quas atque ut molestiae laborum placeat pariatur fuga, dolore sit, eligendi fugiat odio inventore incidunt optio vero, ab molestias.
+        <h1 id="formacao">Formação:</h1>
+        <section class="content-flex-formacao">
+            <aside class="content-card-formacao">
+                <img src="img/Diploma-Vector-No-Background.png" alt="Uma foto do autor do portifolio">
+                <div class="text-description">
+                    <p><strong>Curso: </strong>Manutenção e suporte em informática</p>
+                    <p><strong>Ano:</strong> 2018</p>
+                    <p><strong>Instituição: </strong>Etec Adolpho Berezin</p>
+                </div>
+            </aside>
+            <aside class="content-card-formacao">
+                <img src="img/Diploma-Vector-No-Background.png" alt="Uma foto do autor do portifolio">
+                <div class="text-description">
+                    <p><strong>Curso: </strong>Desenvolvimento de Sistemas</p>
+                    <p><strong>Ano:</strong> 2020</p>
+                    <p><strong>Instituição: </strong>Etec Adolpho Berezin</p>
+                </div>
+            </aside>
+            <aside class="content-card-formacao">
+                <img src="img/Diploma-Vector-No-Background.png" alt="Uma foto do autor do portifolio">
+                <div class="text-description">
+                    <p><strong>Curso: </strong>Controlador de acesso</p>
+                    <p><strong>Ano:</strong> 2025</p>
+                    <p><strong>Instituição: </strong>PAT - Mongaguá</p>
+                </div>
+            </aside>
+            <aside class="content-card-formacao">
+                <img src="img/Diploma-Vector-No-Background.png" alt="Uma foto do autor do portifolio">
+                <div class="text-description">
+                    <p><strong>Curso: </strong>Inglês Básico - Intermediário</p>
+                    <p><strong>Ano:</strong> 2026</p>
+                    <p><strong>Instituição: </strong>PAT - Mongaguá</p>
+                </div>
+            </aside>
         </section>
+        <div id="portifolio">
+            <h1>Portifolio:</h1>
+            <section class="content-flex-formacao">
+                <aside class="content-card-formacao">
+                    <img src="img/Diploma-Vector-No-Background.png" alt="Uma foto do autor do portifolio">
+                        <p>Código simples da matéria de <strong>Lógica de programação</strong>, sobre manipulação de listas</p>
+                        <a href="https://github.com/Dev-Daniels/manipulando-listas" target="_blank" rel="noopener noreferrer" class="btn-portifolio">Ir</a>
+                </aside>
+                <aside class="content-card-formacao">
+                    <img src="img/Diploma-Vector-No-Background.png" alt="Foto png de diploma">
+                    <p>Um projeto feito no figma <strong>Dans Bank</strong>, design para matéria de <strong>Design Web</strong> para um aplicativo bancário</p>
+                    <a href="https://www.figma.com/proto/C5hVmyTPIiedFOFGMlN5s6/Untitled?node-id=3-2&starting-point-node-id=3%3A2" target="_blank" rel="noopener noreferrer" class="btn-portifolio">Ir</a>
+                </aside>        
+                <aside class="content-card-formacao">
+                    <img src="img/Diploma-Vector-No-Background.png" alt="Foto png de diploma">
+                    <p>Link GIt Hub para o <strong>Portifolio</strong>, lá está o resumo sobre conhecimentos adquiridos junto ao código</p>
+                    <a href="https://github.com/Dev-Daniels/portifolio/tree/main" target="_blank" rel="noopener noreferrer" class="btn-portifolio">Ir</a>
+                </aside>
+            </section>
+        </div>
+        <div id="contato">
+            <h1>Contato:</h1>
+            <section class="content-flex-formacao">
+                <aside class="content-contact">
+                    <form id="formContato">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+
+                        <br>
+
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                            <p>&#128187; GitHub: <a href="https://github.com/Dev-Daniels">https://github.com/Dev-Daniels</a></p>
+                            <p>&#9742; Telefone: <a href="#">(13) 99752-3283</a></p>
+                            <label for="feedback">Deixe seu comentario: </label>
+                            <br>
+
+                            <textarea rows="5" cols="30" id="mensagem"></textarea>
+                            <br>
+                            <button type="submit">Enviar</button>
+                    </form>
+                   
+                </aside>
+            </section>
+        </div>
     </div>
+    <footer>
+        a
+    </footer>
+
+    <script src="js/index.js"></script>
 </body>
 </html>
